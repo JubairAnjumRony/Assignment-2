@@ -31,6 +31,9 @@ body{
   .display-flex{
     display: flex;
   }
+  .play{
+    display: none;
+  }
   .btn-primary{
      height: 54px; 
     padding: 16px 40px;
@@ -215,12 +218,8 @@ body{
 
     }
     .banner-img{
-        /* width: 349px;
-        height: 580px; */
+
         width: 100%;
-        /* height: 50%; */
-        /* margin: 30px 214px 0px 87px; */
-        /* border: 2px solid white; */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -248,16 +247,12 @@ body{
     }
 
     .badge-500{
-        /* width: 193px;
-        height: 98px; */
+    
         box-sizing: border-box;
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 12px;
         background-color: rgba(255, 255, 255, 0.1);
         padding: 10px 20px;
-        /* align-items: top; */
-        /* margin-left: 300px;
-        margin-top: -300px; */
         position: absolute;
         top:25%;
         right: 15%;
@@ -283,8 +278,6 @@ body{
    /* position: absolute; */
    background-color: rgb(230, 83, 60) ;
    border-radius: 50%;
-   /* display: inline-block; */
-   /* align-items: flex-start; */
    padding: 10px 0px;
    align-items: center;
 
@@ -309,8 +302,6 @@ body{
  }
 
   .change-habits{
-    /* max-width: 1044px; */
-    /* height: 451px; */
     width: 90%;
     /* margin: 100px 198px 0px 198px; */
     margin: 0 auto;
@@ -340,25 +331,21 @@ body{
     margin: 0 auto;
   }
   .circular{
-    /* width: 272px;
-    height: 180px; */
+
     width: 130%;
     border-radius: 50%;
   }
 /* Run an extra mile */
     .run{
-        /* width: 1060px;
-        height: 371px; */
+      
         width: 80%;
         border-radius: 18px;
-        /* margin: 100px 108px 0px 258px; */
+     
         margin: 0 auto;
         background-color: rgb(34, 34, 34);
     }
     .run-content{
-        /* width: 443px;
-        height: 298px; */
-        /* margin: 41px 0px 41px 54px; */
+    
         padding: 20px 40px;
         
     }
@@ -370,8 +357,6 @@ body{
         object-position: 68% 30%;
         padding: 20px 40px;
         border-radius: 68px;
-
-        /* margin: 30px 32px 29px 165px ; */
     } 
   
     .img-heading{
@@ -392,26 +377,22 @@ body{
     .unique{
         width: 100%;
         background-color: white;
+       
         
     }
     .unique-class{
         justify-content:space-between;
-        /* align-items: center; */
-        /* width: 100%; */
-        /* justify-self:center; */
-     
-
+       
+        
     }
     .unique-content{
         width: 50%;
-        /* align-items:center; */
-           /* justify-self: center; */
            padding: 20px 40px;
     }
     .unique-heading{
         font-weight: 900;
         font-size: 76px;
-        padding: 20px 40px;
+        padding: 60px 40px;
     }
     .italic-2{
         color: grey;
@@ -426,12 +407,15 @@ body{
     .unique-img
     {
         width: 50%;
+      
         
     }
     .unique-img img{
         height: 90vh;
-        align-items: right;
+        /* align-items: right; */
+        
     }
+ 
 
 
     /* BMI Calculator */
@@ -442,7 +426,6 @@ body{
         width: 100%;
         /* height: 487px; */
         background-color: rgb(34, 34, 34);
-        /* margin: 100px 0px 88px 0px; */
         justify-content: space-between;
         margin-bottom: 80px;
       
@@ -472,12 +455,11 @@ body{
      }
 
      .calculate{
-        /* width: 577px;
-        height: 386px; */
+
         width: 50%;
      }
 
-     
+    
      /* BMI calculator */
     
      .bmi-heading{
@@ -485,7 +467,6 @@ body{
         font-size: 28px;
         text-align: left;
         color: rgb(255, 255, 255);
-        /* margin: 52px 44px 52px 187px; */
         padding: 40px;
 
      }
@@ -499,13 +480,10 @@ body{
 
      }
      table{
-        /* width: 310px;
-        height: 216px; */
         width: 50%;
-        /* margin: 0px 175px 133px 189px; */
      }
      input[type="text"]{
-    width: 45%;
+    width: 95%;
     /* height: 48px; */
     border-radius: 8px;
     /* margin: 12px 12px; */
@@ -516,21 +494,19 @@ body{
 
      }
      select{
-        /* width: 282px;
-        height: 48px; */
-        width: 45%;
+        width: 95%;
         border-radius: 8px;
         padding: 12px 40px 12px 20px;
         color:rgba(255, 255, 255, 0.6);
         background-color: rgba(255, 255, 255, 0.1);
      }
+     .grid-table{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+     }
      #activity{
-        /* width: 567px;
-        height: 48px;
         
-
-        /* padding: 12px 40px 12px 20px; */
-        width: 90%;
+        width: 97%;
         margin-right: 30px;
         margin-bottom: 25px; 
      }
@@ -540,8 +516,7 @@ body{
      .meet{
         width: 80%;
         margin: 0 auto;
-        /* height: 782px; */
-        /* margin: 88px 190px 88px 190px; */
+      
         
      }
      .img-grid{
@@ -551,7 +526,6 @@ body{
        
      }
      .img-grid img{
-        /* width: 326.76px; */
         width: 100%;
         height: 100%;
         border-radius: 18px;
@@ -561,9 +535,7 @@ body{
      .trainer-1{
         position: relative;
      }
-     /* .trainer-1 img{
-        width: 100%;
-     } */
+    
      .trainer-text{
          position: absolute;
          /* top: 0; */
@@ -589,10 +561,6 @@ body{
         margin-top:80px
      }
      .footerr{
-        /* max-width: 1059px; */
-        
-        /* height: 249px; */
-        /* margin: 66px 191px 149px 190px; */
         width: 80%;
         margin: 0 auto;
         justify-content: space-between;
@@ -607,8 +575,6 @@ body{
         font-size: 70px;
         text-align: left;
         color: rgb(230,83,60);
-        /* margin-top: 66px;
-        margin-bottom: 24px; */
         padding: 10px 20px;
      }
    
@@ -629,8 +595,6 @@ body{
         padding: 10px 20px;
      }
      .line{
-        /* max-width:1059px; */
-        /* align-items: center; */
         justify-self: center;
         /* margin: 60px 191px 36px 189px; */
         margin: 20px 180px;

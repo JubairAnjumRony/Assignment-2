@@ -40,6 +40,14 @@
     .button-flex{
         padding-left:40px;
     }
+    .badge-350{
+        bottom: 30%;
+        left: -5%;
+    }
+    .badge-500{
+        top: 10%;
+        right: -5%;
+    }
     .circular{
         width: 100%;
     }
@@ -67,12 +75,16 @@
     .section-1,.section-2,.section-3{
      width:100%;
     }
+    .calculate-content p{
+        padding-left: 20px;
+     }
     input[type="text"],select{
         width: 200px;
         padding-right: 0px;
     }
     #activity{
         width: 400px;
+        margin-top: 10px;
     }
     .btn-primary,.btn-primary-3{
         font-weight: 400;
@@ -86,5 +98,13 @@
     }
     .shop-link{
         padding-left: 0px;
+    }
+    .play{
+        display: block;
+        color: white;
+        padding-left: 15px;
+    }
+    .grid-table{
+        gap: 10px;
     }
   }
